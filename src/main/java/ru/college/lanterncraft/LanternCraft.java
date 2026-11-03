@@ -11,9 +11,9 @@ public class LanternCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("LanternCraft успешно загружен!");
+		LOGGER.info("LanternCraft успешно инициализирован!");
+		ModBlocks.initialize();
 	}
-
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
 	}
