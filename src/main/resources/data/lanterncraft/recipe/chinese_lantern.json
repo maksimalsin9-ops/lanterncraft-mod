@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "PDP",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "lanterncraft:chinese_lantern",
+    "count": 1
+  }
+}
